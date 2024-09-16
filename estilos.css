@@ -1,0 +1,55 @@
+.text-menor {
+      font-size: 13px;
+}
+
+.text-amarelo{
+      color: #DAFF01;
+}
+
+.botao-roxo {
+      background-color: #9353FF;
+}
+.botao-roxo:hover {
+      background-color: #6012e7;
+      transition: .3s;
+}
+
+.divs-facilidades {
+      width: 325px;
+}
+
+.div-novidades {
+      width: 325px;
+  }
+
+.posicao{
+      top: 40%;
+  }
+  
+  @media(max-width: 767px){
+      .posicao{
+          top:60%;
+      }
+  }
+
+  @media(min-width: 768px) {
+
+      .div-novidades {
+          width: 696px;
+      }
+
+      
+  }  
+
+  @media(min-width: 768px) and (max-width: 991px) {
+      .tamanho-div {
+            height: 633px;
+      }
+  }
+
+
+  @media(min-width: 1200px) and (max-width: 1400px) {
+      .tamanho-div {
+            height: 872px;
+      }
+  }
